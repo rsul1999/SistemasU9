@@ -29,12 +29,12 @@ public class Funcions {
         int dividir = tazas/6;
             int resultado = tazas + dividir;
             System.out.println("Usted comrpo "+tazas +" tazas, pero le regalamos "+ dividir + " tazas, en total tiene : " + resultado + " tazas");
-        return tazas;
+        return resultado;
     }
     //Funcion de leer las palabras de una oracion
-    public String leer(String palabra){
+    public int leer(String palabra){
         StringTokenizer st = new StringTokenizer(palabra);
         System.out.println("La frase : '" + palabra + "', tiene : "+ st.countTokens() + " palabras");
-        return palabra;
+        return st.countTokens();
     }
 }
