@@ -16,9 +16,21 @@ public class Funcions {
         return comprobar;
     }
     //Funcion de tartamudo
-    
+    public String tartamudeo(String palabra){
+        char[] letra = new char[2];
+        letra[0] = palabra.charAt(0);
+        letra[1] = palabra.charAt(1);
+        System.out.println(""+ letra[0] +letra[1]+"... "+ letra[0]+ letra[1] + "... " + palabra +"?");
+        return palabra;
+    }
     //Funcion de regalo de tazas
-    
+    public int tazas(int tazas){
+        int numero = 6;
+        int dividir = tazas/6;
+            int resultado = tazas + dividir;
+            System.out.println("Usted comrpo "+tazas +" tazas, pero le regalamos "+ dividir + " tazas, en total tiene : " + resultado + " tazas");
+        return tazas;
+    }
     //Funcion de leer las palabras de una oracion
     public String leer(String palabra){
         StringTokenizer st = new StringTokenizer(palabra);
