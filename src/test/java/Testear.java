@@ -1,10 +1,10 @@
-import Cosos.Funcions;
+import UwU.Funciones;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-public class Testeo {  
-    public Testeo() {
+public class Testear {  
+    public Testear() {
     }
-    Funcions x = new Funcions();
+    Funciones x = new Funciones();
     @Test
     public void testComprobar1(){
        assertEquals(true, x.comprobar(0));
@@ -19,15 +19,15 @@ public class Testeo {
     
     @Test
     public void testTartamudo1(){
-       assertEquals("salero", x.tartamudeo("salero"));
+       assertEquals("Etto", x.tartamudeo("Etto"));
     }
      @Test
     public void testTartamudo2(){
-       assertEquals("montaña", x.tartamudeo("montaña"));
+       assertEquals("Nevera", x.tartamudeo("Nevera"));
     } 
     @Test
     public void testTartamudo3(){
-       assertEquals("animal", x.tartamudeo("animal"));
+       assertEquals("Mieloso", x.tartamudeo("Mieloso"));
     } 
     @Test
     public void testTazas1(){
@@ -35,22 +35,22 @@ public class Testeo {
     }
      @Test
     public void testTazas2(){
-       assertEquals(42, x.tazas(36));
+       assertEquals(14, x.tazas(12));
     }
     @Test
     public void testTazas3(){
-       assertEquals(12, x.tazas(11));
+       assertEquals(248, x.tazas(213));
     }
     @Test
     public void testLeer1(){
-       assertEquals(2, x.leer("Dios ayuda"));
+       assertEquals(2, x.leer("Dios posh"));
     }
      @Test
     public void testLeer2(){
-       assertEquals(6, x.leer("No se si esto este bien"));
+       assertEquals(3, x.leer("Pastel de queso"));
     }
     @Test
     public void testLeer3(){
-       assertEquals(3, x.leer("Hola como estan"));
+       assertEquals(2, x.leer("Hola gamer"));
     }
 }

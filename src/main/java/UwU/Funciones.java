@@ -1,8 +1,8 @@
-package Cosos;
+package UwU;
 
 import java.util.StringTokenizer;
 
-public class Funcions {
+public class Funciones {
     //Funcion para comprobar si un numero es menor o igual a 0
     public boolean comprobar(int a){
         boolean comprobar;
@@ -25,10 +25,9 @@ public class Funcions {
     }
     //Funcion de regalo de tazas
     public int tazas(int tazas){
-        int numero = 6;
         int dividir = tazas/6;
             int resultado = tazas + dividir;
-            System.out.println("Usted comrpo "+tazas +" tazas, pero le regalamos "+ dividir + " tazas, en total tiene : " + resultado + " tazas");
+            System.out.println("Usted compro "+tazas +" tazas, entonces le regalamos "+ dividir + " tazas, en total tiene : " + resultado + " tazas");
         return resultado;
     }
     //Funcion de leer las palabras de una oracion
